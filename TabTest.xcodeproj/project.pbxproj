@@ -14,6 +14,7 @@
 		18CC47A021DF1842000D154B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC479E21DF1842000D154B /* LaunchScreen.storyboard */; };
 		18CC47AB21DF1843000D154B /* TabTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC47AA21DF1843000D154B /* TabTestTests.swift */; };
 		18CC47B621DF1843000D154B /* TabTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC47B521DF1843000D154B /* TabTestUITests.swift */; };
+		18CC47C421DF1B26000D154B /* LargeMiddleTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC47C321DF1B26000D154B /* LargeMiddleTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		18CC47B121DF1843000D154B /* TabTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CC47B521DF1843000D154B /* TabTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTestUITests.swift; sourceTree = "<group>"; };
 		18CC47B721DF1843000D154B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CC47C321DF1B26000D154B /* LargeMiddleTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeMiddleTabBar.swift; sourceTree = "<group>"; };
+		18CC47C521DF2377000D154B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		18CC478921DF1842000D154B = {
 			isa = PBXGroup;
 			children = (
+				18CC47C521DF2377000D154B /* README.md */,
 				18CC479421DF1842000D154B /* TabTest */,
 				18CC47A921DF1843000D154B /* TabTestTests */,
 				18CC47B421DF1843000D154B /* TabTestUITests */,
@@ -103,6 +107,7 @@
 				18CC479C21DF1842000D154B /* Assets.xcassets */,
 				18CC479E21DF1842000D154B /* LaunchScreen.storyboard */,
 				18CC47A121DF1842000D154B /* Info.plist */,
+				18CC47C321DF1B26000D154B /* LargeMiddleTabBar.swift */,
 			);
 			path = TabTest;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CC47C421DF1B26000D154B /* LargeMiddleTabBar.swift in Sources */,
 				18CC479821DF1842000D154B /* ViewController.swift in Sources */,
 				18CC479621DF1842000D154B /* AppDelegate.swift in Sources */,
 			);
